@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Create GeomScale Tutorials"
-date: 2023-03-24
+date: 2024-04-01
 author: GeomScale
 author_profile: true
 read_time: true
@@ -85,13 +85,14 @@ The GeomScale project will:
 
 - Audit and collect the existing tutorials currently distributed in blogs, wiki pages and presentations and create a friction log.
 - Using the friction log as a guide for understanding the gaps in the currently fragmented tutorials.
-- Write new tutorials that highlight the usage of GeomScale tools in various applications such as biology and computational finance and statistics. The set of tutorials should range from simple intoductory ones to advanced one that provide solution to spesific applications. See [this example](https://colab.research.google.com/github/GeomScale/dingo/blob/develop/tutorials/dingo_tutorial.ipynb). 
+- Fix old, out of date tutorials (e.g. see [this tutorial](https://volesti.readthedocs.io/en/latest/tutorials/general.html) and [a related issue](https://github.com/GeomScale/Rvolesti/issues/22)).
+- Write new tutorials that highlight the usage of GeomScale tools in various applications such as biology and computational finance and statistics. The set of tutorials should range from simple intoductory ones to advanced one that provide solution to spesific applications. See [this example](https://colab.research.google.com/github/GeomScale/dingo/blob/develop/tutorials/dingo_tutorial.ipynb).
 - Incorporate feedback from tutorial testers (volunteers in the project) and the wider GeomScale community.
-- Collaborate with GeomScale project administrators to select how tutorials should be sructures and presented.
+- Collaborate with GeomScale project administrators to select how tutorials should be structured and presented.
 
 Work that is out-of-scope for this project:
 
-- This project will not create any explanation, rerefence documentationa or how-to guides.
+- This project will not create any explanation, rerefence documentation or how-to guides.
 
 
 ## Measuring your project’s success
@@ -135,7 +136,7 @@ For example in developing and mentoring documentation development
 for [`R` CRAN package volesti](https://CRAN.R-project.org/package=volesti).
 The review process used was similar to a coding review. Examples of documentation
 review process in GeomScale are available from
-[github](https://github.com/boostorg/geometry/pulls?q=is%3Apr+is%3Aclosed+label%3Adocumentation).
+[github](https://github.com/GeomScale/volesti/pull/253).
 In addition to this we usually employ a last step of iterating the final draft
 of documentation to our peers and users for feedback.
 
@@ -153,7 +154,7 @@ projects under `R`-project and Boost `C++` libraries organizations (2017-2019).
 The main software package of GeomScale has been substantially enhanced through
 3 GSoC projects under the mentoring of two of GeomScale’s members, while one
 student of those projects (Apostolos Chalkis) became a GeomScale member and
-GSoC mentor and admin. 
+GSoC mentor and admin.
 
 The last four years (2020-2023) GeomScale has been selected as a mentoring
 organization for GSoC. In 2021 we have successfully mentored 6 projects
